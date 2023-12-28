@@ -26,12 +26,17 @@ export default {
         </li>
         <li>
           <a href="#model-1">
-            <h2>AR-XY Model 1</h2>
+            <h2>AR-XY Model 1 Sport Edition</h2>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#model-2">
             <h2>AR-XY Model 2</h2>
+          </a>
+        </li>
+        <li>
+          <a href="#model-suv">
+            <h2>AR-XY Model SUV</h2>
           </a>
         </li>
         <li>

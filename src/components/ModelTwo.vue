@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="model-1">
+  <div id="model-2">
     <div class="card">
       <h2>AR-XY Model 2:</h2>
       <br>
@@ -24,7 +24,7 @@ export default {
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
 
-#model-1 {
+#model-2 {
   background-image: url(img/model-2.png);
   @include background;
   background-position: top;

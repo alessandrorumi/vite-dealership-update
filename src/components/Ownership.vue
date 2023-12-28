@@ -63,6 +63,7 @@ export default {
 
 #ownership {
   @include background-over-100;
+  padding-bottom: 0;
 
   .titles {
     display: flex;
@@ -79,7 +80,7 @@ export default {
 
   .car-image {
     width: 100%;
-    margin: 5rem auto;
+    margin: 5rem auto 0;
     padding: 5rem;
     background-color: $beige;
     display: flex;

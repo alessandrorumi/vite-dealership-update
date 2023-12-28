@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div id="home">
+  <div id="overview">
     <div class="titles">
       <h2>Simply AR-XY.</h2>
       <h1>Design & Passion</h1>
@@ -29,7 +29,7 @@ export default {
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
 
-#home {
+#overview {
   background-image: url(img/modern-car-3.png);
   @include background;
 

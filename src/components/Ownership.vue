@@ -1,9 +1,10 @@
 <script>
 import AppHeader from './AppHeader.vue';
+import AppFooter from './AppFooter.vue';
 
 export default {
   name: 'Ownership',
-  components: { AppHeader }
+  components: { AppHeader, AppFooter }
 }
 </script>
 
@@ -53,6 +54,7 @@ export default {
       </div>
     </div>
   </div>
+  <AppFooter />
 </template>
 
 <style lang="scss" scoped>

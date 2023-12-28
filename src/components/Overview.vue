@@ -33,11 +33,13 @@ export default {
   background-image: url(img/modern-car-3.png);
   @include background;
 
+
   .titles {
     @include card-background;
     left: 5rem;
     color: $primary;
     background-color: rgba($color: $grey, $alpha: .7);
+    padding: 2rem 1.25rem;
 
     .links {
       @include flex-vert-center;
@@ -45,13 +47,14 @@ export default {
       .more-infos,
       .models {
         @include mybutton;
+        width: 250px;
 
         &:hover {
           background-color: $lightgrey;
         }
 
         a {
-          padding: 1.5rem 2rem;
+          padding: 1.5rem .85rem;
           color: $primary;
 
           &:hover {

@@ -25,10 +25,29 @@ body {
 
 ul {
   list-style-type: none;
-  display: flex;
+}
+
+li {
+  margin-bottom: 1rem;
 }
 
 a {
   color: $lightgrey;
   text-decoration: none;
+}
+
+i {
+  margin-left: .75rem;
+}
+
+a {
+  &:hover {
+
+    text-decoration: underline;
+
+    .fa-arrow-right {
+      color: $grey;
+      transition: color 1s ease;
+    }
+  }
 }

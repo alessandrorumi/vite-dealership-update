@@ -41,29 +41,11 @@ export default {
 
     .discover {
       @include mybutton;
-      padding: 1.5rem 2rem;
-      width: 185px;
 
       &:hover {
         background-color: rgba($color: $lightgrey, $alpha: .08);
       }
     }
-
-    a {
-
-      &:hover {
-        .fa-arrow-right {
-          color: $grey;
-          transition: color 1s ease;
-        }
-      }
-
-      .fa-arrow-right {
-        color: $primary;
-        margin-left: .65rem;
-      }
-    }
-
   }
 }
 </style>

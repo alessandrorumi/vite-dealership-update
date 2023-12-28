@@ -51,7 +51,7 @@ export default {
         </li>
         <li>
           <a href="">
-            <span>Ownership</span>
+            <router-link to="/ownership">Ownership</router-link>
           </a>
         </li>
         <li>

@@ -120,7 +120,7 @@ header {
   left: 0;
   background-color: $primary;
   overflow-x: hidden;
-  padding: 3.5rem;
+  padding: 3rem;
 
   ul {
     display: flex;

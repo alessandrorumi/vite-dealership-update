@@ -11,9 +11,11 @@ export default {
       <br>
       <h2>Sportività, Lusso, Sostenibilità e Comfort, tutto in un unico, straordinario veicolo.</h2>
       <a href="">
-        <div class="discover">
-          <span>Scopri di più<i class="fa-solid fa-arrow-right"></i></span>
-        </div>
+        <router-link to="/discover-model-1">
+          <div class="discover">
+            <span>Scopri di più<i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </router-link>
       </a>
     </div>
   </div>

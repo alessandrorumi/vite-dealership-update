@@ -1,9 +1,10 @@
 <script>
+import AppHeader from './AppHeader.vue';
+
 export default {
-  name: 'Home',
+  name: 'Support',
   components: { AppHeader }
 }
-import AppHeader from './AppHeader.vue';
 </script>
 
 <template>

@@ -25,7 +25,7 @@ export default {
           </div>
         </li>
         <li>
-          <a href="">
+          <a href="#model-1">
             <h2>AR-XY Model 1</h2>
           </a>
         </li>

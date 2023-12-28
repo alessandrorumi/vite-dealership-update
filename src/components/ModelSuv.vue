@@ -1,15 +1,16 @@
 <script>
 export default {
-  name: 'ModelOne'
+  name: 'ModelSuv'
 }
 </script>
 
 <template>
   <div id="model-1">
     <div class="card">
-      <h2>AR-XY Model 1 Sport Edition:</h2>
+      <h2>AR-XY Model SUV:</h2>
       <br>
-      <h2>Sportività, Lusso, Sostenibilità e Comfort, tutto in un unico, straordinario veicolo.</h2>
+      <h2>Un'avventura di lusso, potenza ed efficienza, progettata per famiglie, esploratori urbani e amanti della natura.
+      </h2>
       <a href="">
         <div class="discover">
           <span>Scopri di più<i class="fa-solid fa-arrow-right"></i></span>
@@ -24,7 +25,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 #model-1 {
-  background-image: url(img/model-1.png);
+  background-image: url(img/model-suv.png);
   @include background;
   background-position: top;
 

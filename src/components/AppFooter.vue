@@ -67,7 +67,15 @@ export default {
     </div>
     <div class="bottom">
       <div class="copyright">
-
+        <span><a href="">AR-XY © 2023 Tutti i diritti riservati.</a></span>
+        <span><a href="">Informazioni legali</a></span>
+        <span><a href="">Etica</a></span>
+        <span><a href="">Privacy</a></span>
+        <span><a href="">Cookies</a></span>
+        <span><a href="">Dichiarazione di accessibilità</a></span>
+      </div>
+      <div class="language">
+        <a href="">Italia<i class="fa-solid fa-globe"></i></a>
       </div>
     </div>
   </footer>
@@ -108,8 +116,15 @@ footer {
   .bottom {
     padding-top: 2rem;
     border-top: 2px solid $grey;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
 
-    .copyright {}
+    .copyright {
+      span {
+        margin-right: .75rem;
+      }
+    }
   }
 }
 </style>

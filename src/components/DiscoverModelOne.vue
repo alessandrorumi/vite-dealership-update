@@ -124,11 +124,6 @@ export default {
 
     .car-image {
       width: 50%;
-
-      img {
-        width: 100%;
-        display: block;
-      }
     }
   }
 }

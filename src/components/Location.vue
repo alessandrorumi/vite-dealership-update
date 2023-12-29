@@ -26,10 +26,36 @@ export default {
       <img src="../assets/location.png" alt="">
       <div class="where-to-go">
         <div class="title">
-          Trova uno Space
+          <h2>Trova uno Space</h2>
         </div>
         <div class="text">
+          <div class="milan">
+            <h3>Milano</h3>
+            <div class="city-time">
+              <div class="city">
+                <span>Via, Milano</span>
+                <br>
+                <span>Italia</span>
+                <div class="time">
+                  <span>Aperto oggi: 10.00 - 19.00</span>
+                </div>
+              </div>
 
+            </div>
+          </div>
+          <div class="rome">
+            <h3>Roma</h3>
+            <div class="city-time">
+              <div class="city">
+                <span>Via, Roma</span>
+                <br>
+                <span>Italia</span>
+              </div>
+              <div class="time">
+                <span>Aperto oggi: 10.00 - 18.30</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -66,8 +92,24 @@ export default {
     display: flex;
     flex-wrap: wrap;
 
-    img {
+    .where-to-go {
       width: 100%;
+      @include space-bet;
+
+      .text {
+        width: 40%;
+        padding: 0 2rem;
+
+        &>div {
+          @include space-bet;
+          padding-bottom: 1rem;
+          margin: 1rem 0;
+          border-bottom: 1px solid $grey;
+        }
+      }
+    }
+
+    img {
       margin-bottom: 3rem;
     }
 

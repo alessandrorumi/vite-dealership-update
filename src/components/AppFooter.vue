@@ -117,8 +117,7 @@ footer {
     padding-top: 2rem;
     border-top: 2px solid $grey;
     font-size: 13px;
-    display: flex;
-    justify-content: space-between;
+    @include space-bet;
 
     .copyright {
       span {

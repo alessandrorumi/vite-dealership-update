@@ -53,6 +53,17 @@ export default {
           di utilizzo e condivisione dei dati.</p>
       </div>
     </div>
+
+    <div class="app">
+      <div class="text">
+        <h2>App AR-XY</h2>
+        <br>
+        <span>Le app di Polestar consentono un'integrazione digitale e un'esperienza di guida migliorata.</span>
+      </div>
+      <div class="app-image">
+        <img src="../assets/app.avif" alt="">
+      </div>
+    </div>
   </div>
   <AppFooter />
 </template>
@@ -80,20 +91,33 @@ export default {
 
   .car-image {
     width: 100%;
-    margin: 5rem auto 0;
+    margin: 5rem auto 3rem;
     padding: 5rem;
     background-color: $beige;
     display: flex;
     flex-wrap: wrap;
 
     img {
-      width: 100%;
       margin-bottom: 3rem;
     }
 
     .card {
       width: calc((100% / 3) - 2rem);
       margin: 1rem;
+    }
+  }
+
+  .app {
+    display: flex;
+    justify-content: space-around;
+
+    .text {
+      margin: 1rem 0;
+      width: 250px;
+    }
+
+    .app-image {
+      width: 60%;
     }
   }
 }

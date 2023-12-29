@@ -10,6 +10,11 @@
   align-items: center;
 }
 
+@mixin space-bet {
+  display: flex;
+  justify-content: space-between;
+}
+
 @mixin background {
   background-position: left;
   background-size: cover;

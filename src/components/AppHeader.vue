@@ -136,8 +136,7 @@ header {
     }
 
     .login-exit {
-      display: flex;
-      justify-content: space-between;
+      @include space-bet;
     }
   }
 

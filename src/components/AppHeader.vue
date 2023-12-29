@@ -16,7 +16,7 @@ export default {
       <i class="fa-solid fa-bars" style="font-size: 2rem;" @click="isVisible = true"></i>
     </div>
     <!-- Sidebar-->
-    <div class="sidebar" v-show="isVisible">
+    <div class="sidebar" :class="{ 'active': isVisible }">
       <ul>
         <li>
           <div class="login-exit">
@@ -61,7 +61,7 @@ export default {
         </li>
         <li>
           <a href="">
-            <span>Location</span>
+            <router-link to="/location">Location</router-link>
           </a>
         </li>
         <li>
@@ -113,14 +113,19 @@ header {
 
 .sidebar {
   height: 100%;
-  width: 500px;
+  width: 600px;
   position: fixed;
   z-index: 10;
   top: 0;
-  left: 0;
+  left: -600px;
   background-color: $primary;
   overflow-x: hidden;
   padding: 3rem;
+  transition: left 0.75s;
+
+  &.active {
+    left: 0;
+  }
 
   ul {
     display: flex;

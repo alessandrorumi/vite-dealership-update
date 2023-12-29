@@ -29,6 +29,7 @@ export default {
   background-image: url(img/model-1.png);
   @include background;
   background-position: top;
+  transition: background-size 0.5s ease, transform 0.5s ease;
 
   .card {
     @include card-background;

@@ -25,18 +25,24 @@ export default {
           </div>
         </li>
         <li>
-          <a href="#model-1">
-            <h2>AR-XY Model 1 Sport Edition</h2>
+          <a href="">
+            <router-link to="/discover-model-1">
+              <h2>AR-XY Model 1 Sport Edition</h2>
+            </router-link>
           </a>
         </li>
         <li>
-          <a href="#model-2">
-            <h2>AR-XY Model 2</h2>
+          <a href="">
+            <router-link to="/discover-model-2">
+              <h2>AR-XY Model 2</h2>
+            </router-link>
           </a>
         </li>
         <li>
-          <a href="#model-suv">
-            <h2>AR-XY Model SUV</h2>
+          <a href="">
+            <router-link to="/discover-model-suv">
+              <h2>AR-XY Model SUV</h2>
+            </router-link>
           </a>
         </li>
         <li>
@@ -103,7 +109,7 @@ header {
 }
 
 .fa-bars {
-  color: #b6dae9;
+  color: $lightgrey;
   margin-left: 5rem;
 
   &:hover {

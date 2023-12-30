@@ -114,6 +114,7 @@ export default {
     .text {
       margin: 1rem 0;
       width: 250px;
+      line-height: 1.5rem;
     }
 
     .app-image {

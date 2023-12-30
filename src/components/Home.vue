@@ -5,9 +5,9 @@ export default {
 }
 import AppHeader from './AppHeader.vue';
 import Overview from './Overview.vue';
-import ModelOne from './ModelOne.vue';
-import ModelTwo from './ModelTwo.vue';
-import ModelSuv from './ModelSuv.vue';
+import ModelOne from './Model 1/ModelOne.vue';
+import ModelTwo from './Model 2/ModelTwo.vue';
+import ModelSuv from './Model SUV/ModelSuv.vue';
 import AppFooter from './AppFooter.vue';
 </script>
 

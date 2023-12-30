@@ -12,17 +12,19 @@ export default {
       <h2>Eleganza, innovazione e comfort si fondono in un'esperienza di guida
         raffinata e dinamica, perfetta per la città e oltre.</h2>
       <a href="">
-        <div class="discover">
-          <span>Scopri di più<i class="fa-solid fa-arrow-right"></i></span>
-        </div>
+        <router-link to="/discover-model-2">
+          <div class="discover">
+            <span>Scopri di più<i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </router-link>
       </a>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/partials/mixins' as *;
-@use '../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
 
 #model-2 {
   background-image: url(img/model-2.png);

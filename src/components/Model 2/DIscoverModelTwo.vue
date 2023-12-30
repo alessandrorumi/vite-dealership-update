@@ -1,18 +1,18 @@
 <script>
-import AppFooter from './AppFooter.vue';
-import AppHeader from './AppHeader.vue';
+import AppFooter from '../AppFooter.vue';
+import AppHeader from '../AppHeader.vue';
 
 export default {
-  name: 'DiscoverModelOne',
+  name: 'DiscoverModelTwo',
   components: { AppHeader, AppFooter }
 }
 </script>
 
 <template>
   <AppHeader />
-  <div id="discover-model-1">
+  <div id="discover-model-2">
     <div class="full-image">
-      <h1 class="h1 fade-in">AR-XY Model 1 Sport Edition</h1>
+      <h1 class="h1 fade-in">AR-XY Model 2</h1>
       <div class="info fade-in-delay">
         <div class="km">
           <h2>543km</h2>
@@ -38,10 +38,10 @@ export default {
         audace e distintivo.
       </div>
       <div class="car-image">
-        <img src="../assets/model-1/model-1-frontal.png" alt="">
+        <img src="../../assets/model-2/model-2-frontal.png" alt="">
       </div>
       <div class="car-image">
-        <img src="../assets/model-1/model-1-semi-frontal.png" alt="">
+        <img src="../../assets/model-2/model-2-outside.png" alt="">
       </div>
       <div class="text">
         La Model 1 Sport Edition: offre l'accelerazione più rapida rispetto a qualsiasi altro veicolo in produzione.
@@ -54,12 +54,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/partials/mixins' as *;
-@use '../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
 
-#discover-model-1 {
+#discover-model-2 {
   .full-image {
-    background-image: url(img/model-1.png);
+    background-image: url(img/model-2.png);
     @include background;
     background-position: top;
     transition: background-position 1s ease;
@@ -110,8 +110,8 @@ export default {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: rgb(35, 44, 45);
-    background: linear-gradient(90deg, rgba(35, 44, 45, 1) 0%, rgba(42, 51, 53, 0.9316059187346813) 25%, rgba(154, 163, 162, 1) 50%, rgba(42, 51, 53, 0.9428104005273985) 75%, rgba(35, 44, 45, 1) 100%);
+    background: rgb(42, 51, 53);
+    background: linear-gradient(90deg, rgba(42, 51, 53, 0.8475723052893032) 8%, rgba(52, 67, 70, 0.8923902324601716) 38%, rgba(127, 182, 198, 0.8083566190147934) 75%);
 
     .text {
       width: 50%;

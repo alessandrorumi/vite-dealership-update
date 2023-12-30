@@ -22,8 +22,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/partials/mixins' as *;
-@use '../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
 
 #model-1 {
   background-image: url(img/model-1.png);

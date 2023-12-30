@@ -12,17 +12,19 @@ export default {
       <h2>Un'avventura di lusso, potenza ed efficienza, progettata per famiglie, esploratori urbani e amanti della natura.
       </h2>
       <a href="">
-        <div class="discover">
-          <span>Scopri di più<i class="fa-solid fa-arrow-right"></i></span>
-        </div>
+        <router-link to="/discover-model-suv">
+          <div class="discover">
+            <span>Scopri di più<i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </router-link>
       </a>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/partials/mixins' as *;
-@use '../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
 
 #model-suv {
   background-image: url(img/model-suv.png);

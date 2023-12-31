@@ -52,7 +52,9 @@ export default {
         </li>
         <li>
           <a href="">
-            <h2>Shop</h2>
+            <router-link to="/shop">
+              <h2>Shop</h2>
+            </router-link>
           </a>
         </li>
         <li>
@@ -62,12 +64,16 @@ export default {
         </li>
         <li>
           <a href="">
-            <router-link to="/ownership">Ownership</router-link>
+            <router-link to="/ownership">
+              Ownership
+            </router-link>
           </a>
         </li>
         <li>
           <a href="">
-            <router-link to="/location">Location</router-link>
+            <router-link to="/location">
+              Location
+            </router-link>
           </a>
         </li>
         <li>
@@ -87,7 +93,9 @@ export default {
         </li>
         <li>
           <a href="">
-            <router-link to="/support">Support</router-link>
+            <router-link to="/support">
+              Support
+            </router-link>
           </a>
         </li>
       </ul>

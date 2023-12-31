@@ -1,6 +1,6 @@
 <script>
-import AppFooter from '../AppFooter.vue';
 import AppHeader from '../AppHeader.vue';
+import AppFooter from '../AppFooter.vue';
 
 export default {
   name: 'DiscoverModelSuv',
@@ -34,7 +34,7 @@ export default {
     </div>
     <div class="details">
       <div class="text">
-        La Model 1 Sport Edition: concepita per chi desidera emozioni forti, unisce performance mozzafiato a uno stile
+        La Model SUV: concepita per chi desidera emozioni forti, unisce performance mozzafiato a uno stile
         audace e distintivo.
       </div>
       <div class="car-image">
@@ -44,8 +44,8 @@ export default {
         <img src="../../assets/model-suv/model-suv-frontal.png" alt="">
       </div>
       <div class="text">
-        La Model 1 Sport Edition: offre l'accelerazione più rapida rispetto a qualsiasi altro veicolo in produzione.
-        L'architettura aggiornata della batteria per tutti gli allestimenti della Model 1 Sport Edition consente scatti
+        La Model SUV: offre l'accelerazione più rapida rispetto a qualsiasi altro veicolo in produzione.
+        L'architettura aggiornata della batteria per tutti gli allestimenti della Model SUV consente scatti
         fulminei consecutivi senza degrado delle prestazioni.
       </div>
     </div>

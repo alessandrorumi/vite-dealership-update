@@ -15,11 +15,13 @@ export default {
             <span>Per saperne di pi&ugrave; <i class="fa-solid fa-arrow-right"></i></span>
           </a>
         </div>
-        <div class="models">
-          <a href="">
-            <span>Modelli disponibili <i class="fa-solid fa-arrow-right"></i></span>
-          </a>
-        </div>
+        <router-link to="/shop">
+          <div class="models">
+            <a href="">
+              <span>Modelli disponibili <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+          </div>
+        </router-link>
       </div>
     </div>
   </div>

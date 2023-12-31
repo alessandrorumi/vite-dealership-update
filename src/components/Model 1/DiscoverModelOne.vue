@@ -1,6 +1,6 @@
 <script>
-import AppFooter from '../AppFooter.vue';
 import AppHeader from '../AppHeader.vue';
+import AppFooter from '../AppFooter.vue';
 
 export default {
   name: 'DiscoverModelOne',
